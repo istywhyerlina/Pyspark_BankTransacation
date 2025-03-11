@@ -45,7 +45,7 @@ target : table marketing_campaign_deposit
 | `"day"`                    | `"day"`                     | - |
 | `"month"`                  | `"month"`                   | - |
 | `duration`                 | `duration`                  | - |
-| `duration`                 | `duration_in_year`          | Divide by `365`, round down, and cast to `INT` |
+| `duration`                 | `duration_in_year`          | duration divide by `365`, round down, and cast to `INT` |
 | `campaign`                 | `campaign`                  | - |
 | `pdays`                    | `days_since_last_campaign`  | Rename column |
 | `previous`                 | `previous_campaign_contacts`| Rename column |
