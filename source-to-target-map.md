@@ -7,11 +7,11 @@ source : table education_status
 target : table education_status
 
 | Source Column   | Target Column   | Transformation                                   |
-|----------------|----------------|---------------------------------------------------------|
-| `education_id` | `education_id` | -                       |
-| `value`        | `value`        | - |
-| `created_at`   | `created_at`   | -           |
-| `updated_at`   | `updated_at`   | -          |
+|----------------|----------------|----------------------------------------------------|
+| `education_id` | `education_id` |----------------------------------------------------|
+| `value`        | `value`        |----------------------------------------------------|
+| `created_at`   | `created_at`   |----------------------------------------------------|
+| `updated_at`   | `updated_at`   |----------------------------------------------------|
 
 
 ### Marital Status

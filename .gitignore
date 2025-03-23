@@ -6,9 +6,8 @@ notebook/.ipynb_checkpoints/
 **/__pycache__/
 
 # Ignore specific data file
-notebook/data/bank_transactions.csv
-explore/
+script/extract/extract.ipynb
+script/transform/transform.ipynb
+script/load/load.ipynb
 
-# ignore notebook/main.ipynb and test.ipynb
-notebook/main.ipynb
-notebook/test.ipynb
+
